@@ -68,4 +68,8 @@ bst_t *bst_remove(bst_t *root, int value);
 bst_t *bst_remove_recursion(bst_t *root, bst_t *node, int value);
 bst_t *bst_delete(bst_t *root, bst_t *node);
 bst_t *inorder_successor(bst_t *root);
+int binary_tree_is_avl(const binary_tree_t *tree);
+int bt_avl(const binary_tree_t *tree, int min, int max);
+size_t bt_height(const binary_tree_t *tree);
+
 #endif
